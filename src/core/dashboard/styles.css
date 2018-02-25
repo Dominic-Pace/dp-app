@@ -1,1 +1,5 @@
 @import '../../styles/index.css';
+
+.bio-overview {
+    padding-top: 60px;
+}

@@ -9,10 +9,16 @@ body {
 
 h1 {
     color: white;
-    font-family: Helvetica Neue, serif;
     font-size: 4em;
     font-weight: 100;
     letter-spacing: 8px;
+    text-align: center;
+}
+h3 {
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 4px;
     text-align: center;
 }
 
@@ -20,4 +26,3 @@ h1 {
     background-size: cover;
     background: url('../assets/img/dp-bg.png') no-repeat center;
 }
-

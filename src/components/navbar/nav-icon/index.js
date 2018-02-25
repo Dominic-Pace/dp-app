@@ -1,38 +1,24 @@
 import React from 'react'
 import { Popover } from 'antd'
 
-import BulbIcon from '../../../assets/icons/lightbulb.svg'
-import FileIcon from '../../../assets/icons/file.svg'
-import HomeIcon from '../../../assets/icons/home.svg'
-import ProfileIcon from '../../../assets/icons/profile.svg'
-
+import Icon from '../../icon'
 
 import '../styles.css'
 
-const types = {
-  home: HomeIcon,
-  file: FileIcon,
-  lightbulb: BulbIcon,
-  profile: ProfileIcon
-}
 
-const NavIcon = ({ type, tipText }) => (
+const NavIcon = ({ pointer, size, type, tipText }) => (
   <div className='nav-item'>
-    <Popover
-      placement='right'
-      content={tipText}
-    >
-      <img
-        className='nav-icon'
-        src={types[type]}
-        width={38}
-      />
-    </Popover>
+        <Popover
+          placement='right'
+          content={tipText}
+        >
+          <Icon
+            pointer={pointer}
+            size={size}
+            type={type}
+          />
+        </Popover>
   </div>
 )
 
 export default NavIcon
-
-
-
-
