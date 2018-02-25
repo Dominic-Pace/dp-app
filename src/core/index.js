@@ -14,13 +14,7 @@ class Core extends Component {
           <Box>
             <NavBar />
           </Box>
-          <Flex
-            justify='center'
-            p={4}
-            w={0.9}
-          >
-            <Dashboard />
-          </Flex>
+          <Dashboard />
         </Flex>
       </div>
     )
