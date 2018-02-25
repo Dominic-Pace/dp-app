@@ -1,0 +1,7 @@
+@import '../styles/index.css';
+
+.navigation-bar {
+    height: inherit;
+    padding: 20px;
+    width: 5%;
+}

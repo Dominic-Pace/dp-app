@@ -1,0 +1,10 @@
+@import '../../styles/index.css';
+
+.welcome {
+    background-size: cover;
+    background: url('../../assets/img/dp-bg.png') no-repeat center;
+}
+
+.inner {
+    height: 950px;
+}

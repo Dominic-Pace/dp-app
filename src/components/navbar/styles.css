@@ -1,0 +1,15 @@
+@import '../../styles/index.css';
+
+.navigation-bar {
+    height: inherit;
+    padding: 20px;
+    width: 5%;
+}
+
+.nav-icon {
+    cursor: pointer;
+}
+
+.nav-item {
+    padding: 15px 0;
+}
