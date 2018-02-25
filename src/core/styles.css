@@ -1,5 +1,15 @@
 @import '../styles/index.css';
 
+.container {
+    height: 100%;
+}
+
+.core {
+    background-size: cover;
+    background: url('../assets/img/dp-bg.png') no-repeat center;
+    height: 950px;
+}
+
 .navigation-bar {
     height: inherit;
     padding: 20px;
