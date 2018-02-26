@@ -10,6 +10,7 @@ const types = {
 
 const Icon = ({ pointer, size, type }) => (
   <img
+    alt='type'
     className={pointer && 'icon-link'}
     src={types[type]}
     width={size}

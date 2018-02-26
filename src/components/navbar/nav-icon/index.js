@@ -17,12 +17,12 @@ const types = {
 
 const NavIcon = ({ pointer, size, type, tipText }) => (
   <div className='nav-item'>
-    {console.log(pointer, size, type, tipText)}
     <Popover
       content={tipText}
       placement='right'
     >
       <img
+        alt='type'
         className='icon-link'
         src={types[type]}
         width={size}

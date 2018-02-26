@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Flex } from 'reflexbox'
+import { Flex } from 'reflexbox'
 
 import Header from '../../components/header'
 import Icon from '../../components/icon'

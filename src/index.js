@@ -21,4 +21,4 @@ ReactDOM.render(
     <Core />
   </Provider>,
   document.getElementById('root'))
-registerServiceWorker();
+registerServiceWorker()
