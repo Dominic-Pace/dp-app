@@ -24,7 +24,6 @@ const DasboardContent = () => (
       type='sunny'
     /></span> Austin, TX</h3>
   </Flex>
-
 )
 
 export default DasboardContent
