@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Grid, Row } from 'react-bootstrap'
 
 import Dashboard from './dashboard'
+import Footer from '../components/footer'
 import NavBar from '../components/navbar'
 import { RouteWithSubRoutes } from '../utils/router'
 
@@ -25,12 +26,18 @@ class Core extends Component {
       <Router>
         <div className='core'>
           <Grid>
-            <Row>
+            <Row style={{ height: '98%'}}>
               <NavBar
                 activeNavItem={activeNavItem}
                 handleClick={this.handleNavItemClick}/>
               <Route exact path="/" component={Dashboard} />
               {routes.map((route, i) => <RouteWithSubRoutes key={i} {...route} />)}
+              <Row
+                className='container justify-center'
+                style={{ height: '2%'}}
+              >
+                <Footer />
+              </Row>
             </Row>
           </Grid>
         </div>
