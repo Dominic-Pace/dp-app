@@ -1,7 +1,7 @@
 import React from 'react'
 import ScrollArea from 'react-scrollbar'
 
-const DEFAULT_SCROLL = '88vh'
+const DEFAULT_SCROLL = '90vh'
 
 const getScrollAreaHeight = (height) => (
   height ? `${height}vh` : DEFAULT_SCROLL
@@ -12,7 +12,7 @@ const Scrollable = ({ children, className, height }) => (
     className={className || 'area'}
     horizontal={false}
     speed={0.8}
-    style={{ height: getScrollAreaHeight(height) }}
+    style={{ height: getScrollAreaHeight(height), paddingTop: 20 }}
   >
     {children}
   </ScrollArea>

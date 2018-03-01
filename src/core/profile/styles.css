@@ -1,5 +1,8 @@
 @import '../../styles/index.css';
 
+.about {
+    padding-top: 32px;
+}
 .bio-top {
     padding-bottom: 40px;
 }
@@ -9,6 +12,6 @@
 }
 
 .social {
-    padding: 20px;
+    padding: 20px 20px 0 20px;
 }
 

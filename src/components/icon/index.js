@@ -25,7 +25,7 @@ const Icon = ({ padding, pointer, size, type }) => (
     alt='type'
     className={pointer && 'icon-link'}
     src={types[type]}
-    style={{ paddingRight: padding, paddingLeft: padding }}
+    style={{ padding: padding }}
     width={size}
   />
 )

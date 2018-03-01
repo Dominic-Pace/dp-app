@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Grid, Row } from 'react-bootstrap'
-import ScrollArea from 'react-scrollbar'
 
 import Dashboard from './dashboard'
 import Footer from '../components/footer'
@@ -32,8 +31,8 @@ class Core extends Component {
                 activeNavItem={activeNavItem}
                 handleClick={this.handleNavItemClick}
               />
-                <Route exact path="/" component={Dashboard} />
-                {routes.map((route, i) => <RouteWithSubRoutes key={i} {...route} />)}
+              <Route exact path="/" component={Dashboard} />
+              {routes.map((route, i) => <RouteWithSubRoutes key={i} {...route} />)}
               <Row
                 className='container justify-center'
                 style={{ height: '2%'}}

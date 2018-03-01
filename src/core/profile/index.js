@@ -1,10 +1,10 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 
+import AboutMe from './about'
 import Avatar  from '../../components/avatar'
 import Experience from './experience'
 import Header from '../../components/header'
-import Icon from '../../components/icon'
 import Scrollable from '../../components/scrollable'
 import SocialBio from './social'
 import Timeline from './timeline'
@@ -27,12 +27,7 @@ const BioContent = () => (
       <Col md={8}>
         <Header>Dominic Pace</Header>
         <SocialBio />
-        <h3>Software Engineer specializing in ReactJS living in sunny <span>
-          <Icon
-            size={30}
-            type='sunny'
-          />
-        </span> Austin, TX</h3>
+        <AboutMe />
       </Col>
     </Row>
 

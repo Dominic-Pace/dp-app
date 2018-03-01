@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Row } from 'react-bootstrap'
+import { Row } from 'react-bootstrap'
 
 import Header from '../../components/header'
 import Avatar from '../../components/avatar'
