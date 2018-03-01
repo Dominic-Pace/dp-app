@@ -1,5 +1,5 @@
 import Profile from './profile'
-import Projects from './projects'
+import Portfolio from './portfolio'
 
 
 const routes = [
@@ -8,8 +8,8 @@ const routes = [
     component: Profile
   },
   {
-    path: "/projects",
-    component: Projects
+    path: "/portfolio",
+    component: Portfolio
   }
 ]
 

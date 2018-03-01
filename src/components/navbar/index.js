@@ -33,14 +33,14 @@ const NavBar = ({ activeNavItem, handleClick }) => (
         type='profile'
       />
     </Link>
-    <Link to='/projects'>
+    <Link to='/portfolio'>
       <NavIcon
-        active={activeNavItem === 'projects'}
-        onClick={() => handleClick('projects')}
+        active={activeNavItem === 'portfolio'}
+        onClick={() => handleClick('portfolio')}
         pointer
         size={ICON_SIZE}
         tipPlacement='right'
-        tipText='Projects'
+        tipText='Portfolio'
         type='lightbulb'
       />
     </Link>
