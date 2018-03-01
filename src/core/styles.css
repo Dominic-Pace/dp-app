@@ -7,7 +7,7 @@
 .core {
     background-size: cover;
     background: url('../assets/img/dp-bg.png') no-repeat center;
-    height: 950px;
+    height: 100vh;
 }
 
 .navigation-bar {

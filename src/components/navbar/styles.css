@@ -9,3 +9,11 @@
 .nav-item {
     padding: 15px 0;
 }
+
+.icon-link {
+    opacity: 0.6;
+}
+
+.active {
+    opacity: 1;
+}

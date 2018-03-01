@@ -15,7 +15,7 @@ const types = {
   profile: ProfileIcon
 }
 
-const NavIcon = ({ pointer, size, type, tipText }) => (
+const NavIcon = ({ active, onClick, pointer, size, type, tipText }) => (
   <div className='nav-item'>
     <Popover
       content={tipText}
@@ -23,7 +23,8 @@ const NavIcon = ({ pointer, size, type, tipText }) => (
     >
       <img
         alt='type'
-        className='icon-link'
+        className={active ? 'icon-link active' : 'icon-link'}
+        onClick={onClick}
         src={types[type]}
         width={size}
       />

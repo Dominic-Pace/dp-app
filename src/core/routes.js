@@ -1,27 +1,15 @@
-import Dashboard from './dashboard'
+import Biography from './bio'
+import Projects from './projects'
+
 
 const routes = [
   {
-    path: "/",
-    component: Dashboard,
-    routes: [
-      {
-        path: "/bio",
-        component: Dashboard
-      },
-      {
-        path: "/projects",
-        component: Dashboard
-      },
-      {
-        path: "/design",
-        component: Dashboard
-      },
-      {
-        path: "/resume",
-        component: Dashboard
-      }
-    ]
+    path: "/bio",
+    component: Biography
+  },
+  {
+    path: "/projects",
+    component: Projects
   }
 ]
 
