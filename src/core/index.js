@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Grid, Row } from 'react-bootstrap'
 
-import Dashboard from './dashboard'
+import Profile from './profile'
 import Footer from '../components/footer'
 import NavBar from '../components/navbar'
 import { RouteWithSubRoutes } from '../utils/router'
@@ -12,7 +12,7 @@ import './styles.css'
 
 class Core extends Component {
   state = {
-    activeNavItem: 'home'
+    activeNavItem: 'profile'
   }
 
   handleNavItemClick = (navItem) => {
@@ -31,7 +31,7 @@ class Core extends Component {
                 activeNavItem={activeNavItem}
                 handleClick={this.handleNavItemClick}
               />
-              <Route exact path="/" component={Dashboard} />
+              <Route exact path="/" component={Profile} />
               {routes.map((route, i) => <RouteWithSubRoutes key={i} {...route} />)}
               <Row
                 className='container justify-center'

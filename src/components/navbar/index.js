@@ -13,17 +13,6 @@ const NavBar = ({ activeNavItem, handleClick }) => (
   <Col className='navigation-bar'>
     <Link to='/'>
       <NavIcon
-        active={activeNavItem === 'home'}
-        onClick={() => handleClick('home')}
-        pointer
-        size={ICON_SIZE}
-        tipPlacement='right'
-        tipText='Home'
-        type='home'
-      />
-    </Link>
-    <Link to='/profile'>
-      <NavIcon
         active={activeNavItem === 'profile'}
         onClick={() => handleClick('profile')}
         pointer
