@@ -11,7 +11,7 @@ const Scrollable = ({ children, className, height }) => (
   <ScrollArea
     className={className || 'area'}
     horizontal={false}
-    speed={0.8}
+    speed={0.5}
     style={{ height: getScrollAreaHeight(height), paddingTop: 20 }}
   >
     {children}
