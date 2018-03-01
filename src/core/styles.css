@@ -1,9 +1,5 @@
 @import '../styles/index.css';
 
-.container {
-    height: 100%;
-}
-
 .core {
     background-size: cover;
     background: url('../assets/img/dp-bg.png') no-repeat center;

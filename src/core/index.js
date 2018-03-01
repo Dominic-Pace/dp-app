@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import { Flex } from 'reflexbox'
+import { Grid, Row } from 'react-bootstrap'
 
 import Dashboard from './dashboard'
 import NavBar from '../components/navbar'
@@ -24,13 +24,15 @@ class Core extends Component {
     return (
       <Router>
         <div className='core'>
-          <Flex className='container'>
-            <NavBar
-              activeNavItem={activeNavItem}
-              handleClick={this.handleNavItemClick}/>
-            <Route exact path="/" component={Dashboard} />
-            {routes.map((route, i) => <RouteWithSubRoutes key={i} {...route} />)}
-          </Flex>
+          <Grid>
+            <Row>
+              <NavBar
+                activeNavItem={activeNavItem}
+                handleClick={this.handleNavItemClick}/>
+              <Route exact path="/" component={Dashboard} />
+              {routes.map((route, i) => <RouteWithSubRoutes key={i} {...route} />)}
+            </Row>
+          </Grid>
         </div>
       </Router>
     )

@@ -1,11 +1,11 @@
-import Biography from './bio'
+import Profile from './profile'
 import Projects from './projects'
 
 
 const routes = [
   {
-    path: "/bio",
-    component: Biography
+    path: "/profile",
+    component: Profile
   },
   {
     path: "/projects",
