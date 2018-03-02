@@ -14,7 +14,7 @@ const ReactNativePath = 'https://cdn.rawgit.com/lucasbento/react-native-actions/
 const ReactNavigationPath = 'https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/reactnav.png?alt=media&token=744f63e5-7741-49f2-bc3f-e71bcf92c2af'
 const ReactRouterPath = 'https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/router.png?alt=media&token=c919268a-7a78-49ec-8af0-d419dca3fe12'
 const ReduxPath = 'https://www.valentinog.com/blog/wp-content/uploads/2017/12/redux-logo.png'
-const RubyPath = 'http://rails-workshop.elpasowebdevelopment.com/assets/rails_logo-b61018462f8f9a92bc4465e5416e4c47.png'
+const RubyPath = 'https://ih0.redbubble.net/image.224255999.3907/st%2Csmall%2C215x235-pad%2C210x230%2Cf8f8f8.lite-1u1.jpg'
 
 const findPath = (type) => {
   switch (type.replace(/\s/g, '').toLowerCase()) {
