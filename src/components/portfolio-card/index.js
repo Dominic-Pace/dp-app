@@ -18,7 +18,7 @@ const PortfolioCard = ({ avatarType, cardTitle, headerImg, loading, techStack })
       borderRadius: 10,
       boxShadow: 'rgb(160, 160, 159) 0px 2px 10px 2px',
       margin: '5% 7%',
-      width: 300
+      width: 320
     }}
     title={loading ? 'Loading...' : null}
   >

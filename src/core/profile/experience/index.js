@@ -56,7 +56,7 @@ const Experience = () => (
             type='sm'
           />
           <Avatar
-            path='https://visualpharm.com/assets/891/Selenium%20Test%20Automation-595b40b65ba036ed117d3326.svg'
+            path='https://www.3pillarglobal.com/wp-content/uploads/2015/11/xselenium_logo_320x260-300x260.jpg.pagespeed.ic.aqA1rifk_N.jpg'
             style={{ margin: 10 }}
             type='sm'
           />

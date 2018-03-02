@@ -5,11 +5,11 @@ import PortfolioCard from '../../../components/portfolio-card'
 const renderItems = (portfolioItems) => {
   return portfolioItems.map(portfolio => (
     <PortfolioCard
-      avatarType={portfolio.techStack[0]}
+      avatarType={portfolio.language}
       cardTitle={portfolio.name}
       headerImg={portfolio.imgUrl}
       key={portfolio.name}
-      techStack={portfolio.techStack.slice(1,6)}
+      techStack={portfolio.techStack.slice(0, 6)}
     />
   ))
 }
