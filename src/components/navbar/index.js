@@ -65,7 +65,7 @@ const renderConnectNav = (active) => (
         pointer
         size={getIconSize(isActive(active, 'mail'))}
         tipPlacement='right'
-        tipText='Contact Me!'
+        tipText='Reach Out!'
         type='mail'
         wrapperClassName='menu'
       />
