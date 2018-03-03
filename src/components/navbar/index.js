@@ -9,7 +9,7 @@ import './styles.css'
 const RESUME = 'https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/Dominic%20Pace%20-%20Resume.pdf?alt=media&token=4fc3f3c8-a611-4ddd-91a8-0b7c80db87bc'
 
 const getIconSize = (active) => (
-  active ? 36 : 32
+  active ? 39 : 32
 )
 
 const isActive = (active, icon) => (
