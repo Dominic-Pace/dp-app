@@ -88,6 +88,7 @@ const renderConnectNav = (active) => (
       <NavPopIcon
         pointer
         size={30}
+        style={{ marginLeft: 4 }}
         tipPlacement='right'
         tipText='Buy me a drink!'
         type='drink'

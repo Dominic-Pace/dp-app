@@ -66,7 +66,7 @@ export const NavMenuIcon = ({ active, onClick, size, titleComponent, type, wrapp
   </div>
 )
 
-export const NavPopIcon = ({ active, onClick, size, tipPlacement, tipText, trigger, type, wrapperClassName }) => (
+export const NavPopIcon = ({ active, onClick, size, style, tipPlacement, tipText, trigger, type, wrapperClassName }) => (
   <div className={ wrapperClassName === 'menu' ? 'menu-item' : 'nav-item'}>
     <Popover
       content={tipText}
@@ -78,6 +78,7 @@ export const NavPopIcon = ({ active, onClick, size, tipPlacement, tipText, trigg
         className={active ? 'icon-link active' : 'icon-link'}
         onClick={onClick}
         src={types[type]}
+        style={style}
         width={size}
       />
     </Popover>
