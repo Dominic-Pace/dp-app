@@ -57,7 +57,7 @@ export const NavMenuIcon = ({ active, onClick, size, titleComponent, type, wrapp
     >
       <img
         alt='type'
-        className={active ? 'icon-link active' : 'icon-link'}
+        className='icon-link'
         onClick={onClick}
         src={types[type]}
         width={size}
