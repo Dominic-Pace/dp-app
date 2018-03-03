@@ -1,14 +1,16 @@
 import React from 'react'
 
-import Avatar from '../../avatar'
+import { PopAvatar } from '../../avatar'
 
 const AntPath = 'https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/ant.png?alt=media&token=23c8c064-1fe2-4a97-9abc-e709fec40647'
+const AppiumPath = 'https://seeklogo.com/images/A/appium-logo-2AB368AF4A-seeklogo.com.png'
 const ExpoPath = 'http://imgf.downloadapk.net/f/73/b71075_150.png'
 const ExpressPath = 'https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/express.png?alt=media&token=d6607f5f-693f-4210-aca1-04304788d809'
 const FirebasePath = 'https://pbs.twimg.com/profile_images/733010550670557184/aMmM_m3g.jpg'
 const GraphqlPath = 'http://drupal.sh/sites/default/files/styles/large/public/2016-06/graphql.jpg?itok=bAWB8IYo'
 const JavaPath = 'https://mblayman.files.wordpress.com/2013/10/java-logo.jpg'
 const JavascriptPath = 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'
+const JenkinsPath = 'https://www.silicon.fr/wp-content/uploads/2014/09/jenkins.png'
 const MavenPath = 'http://roufid.com/wp-content/uploads/2016/05/eyecatch-maven.png'
 const NodePath = 'https://achievement-images.teamtreehouse.com/badges_JavaScript_nodeBasics_Stage1.png'
 const PhotoshopPath = 'https://ih1.redbubble.net/image.231864847.1593/flat,800x800,075,f.u10.jpg'
@@ -25,6 +27,9 @@ const findPath = (type) => {
   switch (type.replace(/\s/g, '').toLowerCase()) {
     case 'antdesign':
       return AntPath
+
+    case 'appium':
+      return AppiumPath
 
     case 'expo':
       return ExpoPath
@@ -43,6 +48,9 @@ const findPath = (type) => {
 
     case 'javascript':
       return JavascriptPath
+
+    case 'jenkins':
+      return JenkinsPath
 
     case 'maven':
       return MavenPath
@@ -84,8 +92,9 @@ const findPath = (type) => {
 }
 
 const PortfolioAvatar = ({ size, type }) => (
-  <Avatar
+  <PopAvatar
     path={findPath(type)}
+    tipText={type}
     type={size}
   />
 )

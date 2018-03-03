@@ -2,8 +2,8 @@
 
 .core {
     background-size: cover;
-    background: url('../assets/img/dp-bg.png') no-repeat center;
-    height: 100vh;
+    background: linear-gradient(to bottom right, #083349, #146189);
+    height: 100%;
 }
 
 .navigation-bar {

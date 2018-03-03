@@ -4,13 +4,12 @@ import { Row } from 'react-bootstrap'
 import Header from '../../components/header'
 import Avatar from '../../components/avatar'
 import Quote from '../../components/quote'
-import Scrollable from '../../components/scrollable'
 
 
 import './styles.css'
 
 const DashboardContent = () => (
-  <Scrollable className='content'>
+  <Col className='content'>
     <Header>Dominic Pace</Header>
     <Row className='justify-center'>
       <Avatar
@@ -21,7 +20,7 @@ const DashboardContent = () => (
     <Row className='justify-center'>
       <Quote>The best thing about a boolean is even if you are wrong, you are only off by a bit.</Quote>
     </Row>
-  </Scrollable>
+  </Col>
 )
 
 export default DashboardContent

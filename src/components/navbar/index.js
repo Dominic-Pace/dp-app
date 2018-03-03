@@ -6,17 +6,24 @@ import NavIcon from '../nav-icon'
 
 import './styles.css'
 
-const ICON_SIZE = 32
 const RESUME = 'https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/Dominic%20Pace%20-%20Resume.pdf?alt=media&token=4fc3f3c8-a611-4ddd-91a8-0b7c80db87bc'
+
+const getIconSize = (active) => (
+  active ? 36 : 32
+)
+
+const isActive = (active, icon) => (
+  active === icon
+)
 
 const NavBar = ({ activeNavItem, handleClick }) => (
   <Col className='navigation-bar'>
     <Link to='/'>
       <NavIcon
-        active={activeNavItem === 'profile'}
+        active={isActive(activeNavItem, 'profile')}
         onClick={() => handleClick('profile')}
         pointer
-        size={ICON_SIZE}
+        size={getIconSize(isActive(activeNavItem, 'profile'))}
         tipPlacement='right'
         tipText='Profile'
         type='profile'
@@ -24,10 +31,10 @@ const NavBar = ({ activeNavItem, handleClick }) => (
     </Link>
     <Link to='/portfolio'>
       <NavIcon
-        active={activeNavItem === 'portfolio'}
+        active={isActive(activeNavItem, 'portfolio')}
         onClick={() => handleClick('portfolio')}
         pointer
-        size={ICON_SIZE}
+        size={getIconSize(isActive(activeNavItem, 'portfolio'))}
         tipPlacement='right'
         tipText='Portfolio'
         type='lightbulb'
@@ -36,7 +43,7 @@ const NavBar = ({ activeNavItem, handleClick }) => (
     <a href={RESUME} target='_blank'>
       <NavIcon
         pointer
-        size={ICON_SIZE}
+        size={getIconSize(isActive(activeNavItem, 'resume'))}
         tipPlacement='right'
         tipText='Resume'
         type='file'

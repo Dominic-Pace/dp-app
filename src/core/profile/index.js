@@ -5,14 +5,13 @@ import AboutMe from './about'
 import Avatar  from '../../components/avatar'
 import Experience from './experience'
 import Header from '../../components/header'
-import Scrollable from '../../components/scrollable'
 import SocialBio from './social'
 import Timeline from './timeline'
 
 import './styles.css'
 
 const BioContent = () => (
-  <Scrollable className='content'>
+  <Col className='content'>
     <Row className='bio-top'>
       <Col
         className='justify-center'
@@ -42,7 +41,7 @@ const BioContent = () => (
         <Timeline />
       </Col>
     </Row>
-  </Scrollable>
+  </Col>
 )
 
 export default BioContent

@@ -3,7 +3,6 @@ import { Col, Row } from 'react-bootstrap'
 
 import CardCol from './card-col'
 import Header from '../../components/header'
-import Scrollable from '../../components/scrollable'
 
 import PortfolioData from '../../assets/mock/portfolio.json'
 
@@ -30,9 +29,6 @@ class PortfolioContent extends Component {
     return (
       <Col className='content'>
         <Header>Project Portfolio</Header>
-        <Scrollable
-          height={75}
-        >
           <Row className='portfolio-items'>
             <Col md={2} />
             <Col
@@ -55,7 +51,6 @@ class PortfolioContent extends Component {
             </Col>
             <Col md={2} />
           </Row>
-        </Scrollable>
       </Col>
     )
   }

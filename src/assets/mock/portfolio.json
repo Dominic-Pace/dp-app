@@ -2,8 +2,8 @@
   {
     "name": "DominicEPace.com",
     "company": "Dominic Pace",
-    "imgUrl": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA3VAAAAJDIzYTRlMThkLTk4YjgtNDZlMC04MjM4LTA1Y2Y3NTA5ZTllYg.jpg",
-    "language": "javascript",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/dpace-site.jpg?alt=media&token=c10ce5af-912c-4717-a60a-5ff564a3cfb2",
+    "language": "Javascript",
     "techStack": [
       "React",
       "Redux",
@@ -21,7 +21,7 @@
     "name": "Caféwell Coaching",
     "company": "Welltok Inc.",
     "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/cw.png?alt=media&token=f0e3bf1d-6616-4246-9765-3c9babccdab3",
-    "language": "javascript",
+    "language": "Javascript",
     "techStack": [
       "React",
       "Redux",
@@ -36,8 +36,8 @@
   {
     "name": "Wirlix Mobile Application",
     "company": "Wirlix LLC.",
-    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/wirlix.png?alt=media&token=b3080c8e-c645-427c-8b10-b879a83b5a16",
-    "language": "javascript",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/wirlix.png?alt=media&token=465d4de9-d5b2-4fb2-8e3e-36260aa5f9bc",
+    "language": "Javascript",
     "techStack": [
       "React Native",
       "Expo",
@@ -55,7 +55,7 @@
     "name": "Caféwell Central",
     "company": "Welltok Inc.",
     "imgUrl": "https://cdn-images-1.medium.com/max/1600/1*6Rz95aDqIK09XLa6NppGaw.png",
-    "language": "javascript",
+    "language": "Javascript",
     "techStack": [
       "React",
       "Redux",
@@ -71,8 +71,8 @@
   {
     "name": "Squad",
     "company": "Personal Project",
-    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/squad.png?alt=media&token=eaf51642-359d-4c8a-ab52-5bf910fcd02b",
-    "language": "javascript",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/squad.jpg?alt=media&token=be264e2c-94b7-4056-9379-c372e1eee6bd",
+    "language": "Javascript",
     "techStack": [
       "React Native",
       "Expo",
@@ -89,7 +89,7 @@
     "name": "Drivr Open Source",
     "company": "Drivr",
     "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROUT_DZAws-N-2Bc7KQEjuTWh24APKcZKZ6ZA9KWbZoNUxWgn4",
-    "language": "java",
+    "language": "Java",
     "techStack": [
       "Selenium",
       "Maven",
@@ -99,5 +99,36 @@
     "timeEnd": "March 2017",
     "location": "Manchester, NH",
     "descriptionHtml": "<div>Test Drivr Html!</div>"
+  },
+  {
+    "name": "Ipswitch Analytics",
+    "company": "Ipswitch Inc.",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/ip-analytics-2.jpg?alt=media&token=e5e36586-577e-4d4f-86fe-d4ac19b18738",
+    "language": "Java",
+    "techStack": [
+      "Selenium",
+      "Maven",
+      "TestNG",
+      "Jenkins"
+    ],
+    "timeStart": "December 2015",
+    "timeEnd": "May 2016",
+    "location": "Lexington, MA",
+    "descriptionHtml": "<div>Test Analytics Html!</div>"
+  },
+  {
+    "name": "MOVEit Mobile",
+    "company": "Ipswitch Inc.",
+    "imgUrl": "https://www.moveitmanagedfiletransfer.com/wp-content/uploads/2015/05/MOVEit-Mobile-Image.png",
+    "language": "Java",
+    "techStack": [
+      "Appium",
+      "Maven",
+      "TestNG"
+    ],
+    "timeStart": "December 2015",
+    "timeEnd": "May 2016",
+    "location": "Lexington, MA",
+    "descriptionHtml": "<div>Test Analytics Html!</div>"
   }
 ]

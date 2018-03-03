@@ -16,7 +16,7 @@ const PortfolioCard = ({ avatarType, cardTitle, headerImg, loading, techStack })
     style={{
       backgroundColor: 'transparent',
       borderRadius: 10,
-      boxShadow: 'rgb(160, 160, 159) 0px 2px 10px 2px',
+      boxShadow: 'rgb(160, 160, 160) 0px 0px 16px 0px',
       margin: '5% 7%',
       width: 320
     }}
