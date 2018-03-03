@@ -28,7 +28,7 @@ const SocialBio = () => (
         padding={10}
         pointer
         size={ICON_SIZE}
-        type='github'
+        type='githubFill'
       />
     </a>
     <a
@@ -40,7 +40,7 @@ const SocialBio = () => (
         padding={10}
         pointer
         size={ICON_SIZE}
-        type='linkedIn'
+        type='linkedInFill'
       />
     </a>
     <a
@@ -52,7 +52,7 @@ const SocialBio = () => (
         padding={10}
         pointer
         size={ICON_SIZE}
-        type='twitter'
+        type='twitterFill'
       />
     </a>
     <a
