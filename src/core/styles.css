@@ -6,6 +6,10 @@
     height: 100%;
 }
 
+.core-row {
+    height: 98%;
+}
+
 .navigation-bar {
     height: inherit;
     padding: 20px;

@@ -4,7 +4,7 @@ import { Grid, Row } from 'react-bootstrap'
 
 import Profile from './profile'
 import Footer from '../components/footer'
-import NavBar from '../components/navbar'
+import NavBar from './navbar'
 import { RouteWithSubRoutes } from '../utils/router'
 
 import routes from './routes'
@@ -26,7 +26,7 @@ class Core extends Component {
       <Router>
         <div className='core'>
           <Grid>
-            <Row style={{ height: '98%'}}>
+            <Row className='core-row'>
               <NavBar
                 activeNavItem={activeNavItem}
                 handleClick={this.handleNavItemClick}
