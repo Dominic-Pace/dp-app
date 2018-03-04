@@ -13,6 +13,7 @@ import LinkedInLineIcon from '../../assets/icons/li-line.svg'
 import MailIcon from '../../assets/icons/mail.svg'
 import PortfolioIcon from '../../assets/icons/portfolio.svg'
 import ProfileIcon from '../../assets/icons/profile.svg'
+import ResumeIcon from '../../assets/icons/resume.svg'
 import SunnyIcon from '../../assets/icons/sunny.svg'
 import TwitterIcon from '../../assets/icons/twitter.svg'
 import TwitterLineIcon from '../../assets/icons/twitter-line.svg'
@@ -33,18 +34,19 @@ const types = {
   linkedInFill: LinkedInIcon,
   mail: MailIcon,
   profile: ProfileIcon,
+  resume: ResumeIcon,
   sunny: SunnyIcon,
   twitter: TwitterLineIcon,
   twitterFill: TwitterIcon,
   xbox: XboxIcon
 }
 
-const Icon = ({ padding, pointer, size, type }) => (
+const Icon = ({ pointer, size, style, type }) => (
   <img
     alt='type'
     className={pointer && 'icon-link'}
     src={types[type]}
-    style={{ padding: padding }}
+    style={style}
     width={size}
   />
 )
@@ -57,7 +59,7 @@ export const NavMenuIcon = ({ active, onClick, size, titleComponent, type, wrapp
     >
       <img
         alt='type'
-        className='icon-link'
+        className={active ? 'icon-link active' : 'icon-link'}
         onClick={onClick}
         src={types[type]}
         width={size}

@@ -1,16 +1,30 @@
 import React from 'react'
 import { Card } from 'antd'
 
-import PortfolioAvatar from './port-avatar'
+import PortfolioAvatar from './port-avatar/index'
+
+import './styles.css'
 
 const { Meta } = Card
 
-const PortfolioCard = ({ avatarType, cardTitle, headerImg, loading, techStack }) => (
+const PortfolioCard = ({ avatarType, cardTitle, headerImg, imgLink, loading, techStack }) => (
   <Card
-    bodyStyle={{  backgroundColor: '#e6e6e6', borderRadius: '0 0 10px 10px', padding: 12 }}
-    bordered={false}
+    bodyStyle={{
+      backgroundColor: '#e6e6e6',
+      borderRadius: '0 0 10px 10px',
+      cursor: 'auto',
+      padding: 12
+    }}
+    bordered
     className='align-center'
-    cover={<img alt={cardTitle} src={headerImg} style={{ borderRadius: '10px 10px 0 0' }}/>}
+    cover={
+      <a className='port-img-container' href={imgLink}>
+        <img alt={cardTitle} className='portfolio-img' src={headerImg} style={{ borderRadius: '10px 10px 0 0' }}/>
+        <div className='overlay'>
+          <div className='text'>Learn More</div>
+        </div>
+      </a>
+    }
     hoverable
     loading={loading}
     style={{

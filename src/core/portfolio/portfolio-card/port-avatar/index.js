@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { PopAvatar } from '../../avatar'
+import { PopAvatar } from '../../../../components/avatar/index'
 
 const AntPath = 'https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/ant.png?alt=media&token=23c8c064-1fe2-4a97-9abc-e709fec40647'
 const AppiumPath = 'https://seeklogo.com/images/A/appium-logo-2AB368AF4A-seeklogo.com.png'

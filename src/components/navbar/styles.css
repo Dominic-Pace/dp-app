@@ -1,18 +1,18 @@
 @import '../../styles/index.css';
 
-.active {
-    border-left: 1px solid white;
-    margin-left: -7px;
-    opacity: 1;
-    padding-left: 6px;
-}
-
 .connect-bar {
     background-color: black;
 }
 
 .icon-link {
     opacity: 0.6;
+}
+
+.active {
+    border-left: 1px solid white;
+    margin-left: -7px;
+    opacity: 1;
+    padding-left: 6px;
 }
 
 .icon-link:hover {

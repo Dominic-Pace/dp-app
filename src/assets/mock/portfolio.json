@@ -3,6 +3,7 @@
     "name": "DominicEPace.com",
     "company": "Dominic Pace",
     "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/dpace-site.jpg?alt=media&token=c10ce5af-912c-4717-a60a-5ff564a3cfb2",
+    "imgLink": "https://github.com/Dominic-Pace/dp-app",
     "language": "Javascript",
     "techStack": [
       "React",
@@ -21,6 +22,7 @@
     "name": "Caféwell Coaching",
     "company": "Welltok Inc.",
     "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/cw.png?alt=media&token=f0e3bf1d-6616-4246-9765-3c9babccdab3",
+    "imgLink": "https://cafewell.com",
     "language": "Javascript",
     "techStack": [
       "React",
@@ -37,6 +39,7 @@
     "name": "Wirlix Mobile Application",
     "company": "Wirlix LLC.",
     "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/wirlix.png?alt=media&token=465d4de9-d5b2-4fb2-8e3e-36260aa5f9bc",
+    "imgLink": "https://www.wirlix.com",
     "language": "Javascript",
     "techStack": [
       "React Native",
@@ -55,6 +58,7 @@
     "name": "Caféwell Central",
     "company": "Welltok Inc.",
     "imgUrl": "https://cdn-images-1.medium.com/max/1600/1*6Rz95aDqIK09XLa6NppGaw.png",
+    "imgLink": "https://www.welltok.com/services/",
     "language": "Javascript",
     "techStack": [
       "React",
@@ -72,6 +76,7 @@
     "name": "Squad",
     "company": "Personal Project",
     "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/squad.jpg?alt=media&token=be264e2c-94b7-4056-9379-c372e1eee6bd",
+    "imgLink": "https://github.com/Dominic-Pace/SquadAPI",
     "language": "Javascript",
     "techStack": [
       "React Native",
@@ -89,6 +94,7 @@
     "name": "Drivr Open Source",
     "company": "Drivr",
     "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROUT_DZAws-N-2Bc7KQEjuTWh24APKcZKZ6ZA9KWbZoNUxWgn4",
+    "imgLink": "https://github.com/Dominic-Pace/drivr",
     "language": "Java",
     "techStack": [
       "Selenium",
@@ -104,6 +110,7 @@
     "name": "Ipswitch Analytics",
     "company": "Ipswitch Inc.",
     "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/ip-analytics-2.jpg?alt=media&token=e5e36586-577e-4d4f-86fe-d4ac19b18738",
+    "imgLink": "https://www.ipswitch.com/resources/data-sheets/ipswitch-analytics",
     "language": "Java",
     "techStack": [
       "Selenium",
@@ -120,6 +127,7 @@
     "name": "MOVEit Mobile",
     "company": "Ipswitch Inc.",
     "imgUrl": "https://www.moveitmanagedfiletransfer.com/wp-content/uploads/2015/05/MOVEit-Mobile-Image.png",
+    "imgLink": "https://www.ipswitch.com/resources/data-sheets/moveit-mobile-data-sheet",
     "language": "Java",
     "techStack": [
       "Appium",
