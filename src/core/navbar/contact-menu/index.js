@@ -4,7 +4,7 @@ import { NavPopIcon } from '../../../components/icon/index'
 
 import '../styles.css'
 
-const RESUME = 'https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/Dominic%20Pace%20-%20Resume.jpg?alt=media&token=6754756c-4b65-4aaf-b35a-6261d3433fed'
+const RESUME = 'https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/Dominic%20Pace%20-%20Resume.jpg?alt=media&token=620f5e2b-3e43-4a45-b479-ebd764b41742'
 
 const getIconSize = (active) => (
   active ? 39 : 32
