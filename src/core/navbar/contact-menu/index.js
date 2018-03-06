@@ -4,8 +4,6 @@ import { NavPopIcon } from '../../../components/icon/index'
 
 import '../styles.css'
 
-const RESUME = 'https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/Dominic%20Pace%20-%20Resume.jpg?alt=media&token=620f5e2b-3e43-4a45-b479-ebd764b41742'
-
 const getIconSize = (active) => (
   active ? 39 : 32
 )
@@ -14,7 +12,7 @@ const isActive = (active, icon) => (
   active === icon
 )
 
-const ContactMenu = (active) => (
+const ContactMenu = ({ active, resumeLink }) => (
   <span>
     <a
       href='https://www.linkedin.com/in/dominic-pace/'
@@ -68,7 +66,7 @@ const ContactMenu = (active) => (
         wrapperClassName='menu'
       />
     </a>
-    <a href={RESUME} target='_blank'>
+    <a href={resumeLink} target='_blank'>
       <NavPopIcon
         pointer
         size={getIconSize(isActive(active, 'resume'))}

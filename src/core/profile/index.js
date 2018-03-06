@@ -19,7 +19,7 @@ const BioContent = () => (
       >
         <Avatar
           path='https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA3VAAAAJDIzYTRlMThkLTk4YjgtNDZlMC04MjM4LTA1Y2Y3NTA5ZTllYg.jpg'
-          style={{ marginLeft: '15%' }}
+          style={{ marginLeft: '10%' }}
           type='xl'
         />
       </Col>

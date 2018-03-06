@@ -12,15 +12,26 @@ import './styles.css'
 
 class Core extends Component {
   state = {
-    activeNavItem: 'profile'
+    activeNavItem: 'profile',
+    isBurgerOpen: false
   }
 
+  handleBurgerClick = () => {
+    this.setState({ isBurgerOpen: !this.state.isBurgerOpen })
+  }
+
+  handleMobileNavItemClick = (navItem) => {
+    this.setState({
+      activeNavItem: navItem,
+      isBurgerOpen: !this.state.isBurgerOpen
+    })
+  }
   handleNavItemClick = (navItem) => {
     this.setState({ activeNavItem: navItem })
   }
 
   render () {
-    const { activeNavItem } = this.state
+    const { activeNavItem, isBurgerOpen } = this.state
 
     return (
       <Router>
@@ -29,7 +40,10 @@ class Core extends Component {
             <Row className='core-row'>
               <NavBar
                 activeNavItem={activeNavItem}
+                handleBurgerClick={this.handleBurgerClick}
                 handleClick={this.handleNavItemClick}
+                handleMobileNavClick={this.handleMobileNavItemClick}
+                isBurgerOpen={isBurgerOpen}
               />
               <Route exact path="/" component={Profile} />
               {routes.map((route, i) => <RouteWithSubRoutes key={i} {...route} />)}
