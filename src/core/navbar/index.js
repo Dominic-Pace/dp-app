@@ -6,7 +6,7 @@ import MobileMenu from './mobile-menu'
 
 import './styles.css'
 
-const RESUME = 'https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/Dominic%20Pace%20-%20Resume.jpg?alt=media&token=4cdce119-58da-4c9c-a8af-729e7eb7789a'
+const RESUME = 'https://firebasestorage.googleapis.com/v0/b/dp-app-440b6.appspot.com/o/Dominic%20Pace%20Resume.pdf?alt=media&token=0eb16699-f09f-4249-85e9-d60c903056f9'
 
 const getIconSize = (active) => (
   active ? 39 : 32

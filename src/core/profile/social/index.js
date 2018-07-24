@@ -4,7 +4,7 @@ import { Row } from 'react-bootstrap'
 import Icon from '../../../components/icon'
 
 const ICON_SIZE = 48
-const RESUME = 'https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/Dominic%20Pace%20-%20Resume.pdf?alt=media&token=4fc3f3c8-a611-4ddd-91a8-0b7c80db87bc'
+const RESUME = 'https://firebasestorage.googleapis.com/v0/b/dp-app-440b6.appspot.com/o/DominicPaceResume.jpg?alt=media&token=b6f0abef-6438-462c-bc47-870ef2f574af'
 
 const SocialBio = () => (
   <Row className='social justify-center'>
