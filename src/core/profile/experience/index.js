@@ -12,7 +12,7 @@ const Experience = () => (
       type='sm'
     />
     <PopAvatar
-      path='https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'
+      path='https://d2vqpl3tx84ay5.cloudfront.net/500x/tumblr_lsus01g1ik1qies3uo1_400.png'
       style={{ margin: 10 }}
       tipText='Javascript'
       type='sm'

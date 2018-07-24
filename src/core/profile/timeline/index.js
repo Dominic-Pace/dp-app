@@ -6,7 +6,7 @@ const COMPLETE_COLOR = '#52c41a'
 const BioTimeline = () => (
   <Timeline>
     <Timeline.Item color='yellow'>
-      <p>2018 - Austin, TX here I come! Currently seeking a new bad ass position!</p>
+      <p>2018 - Spent first half of the year relocated to Austin, TX. Now I'm currently seeking a new bad ass position using React!</p>
     </Timeline.Item>
     <Timeline.Item color={COMPLETE_COLOR}>
       <p>2017 - Built out multiple professional consumer facing applications from the ground up for <a href='https://www.welltok.com' rel='noopener noreferrer' target='_blank' >Welltok Inc.</a> First time consulting.</p>

@@ -18,7 +18,7 @@ const BioContent = () => (
         md={4}
       >
         <Avatar
-          path='https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA3VAAAAJDIzYTRlMThkLTk4YjgtNDZlMC04MjM4LTA1Y2Y3NTA5ZTllYg.jpg'
+          path='https://avatars2.githubusercontent.com/u/12464763?s=460&v=4'
           style={{ marginLeft: '10%' }}
           type='xl'
         />
