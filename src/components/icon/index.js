@@ -1,5 +1,4 @@
 import React from 'react'
-import { Popover, Tooltip } from 'antd'
 
 import CloseIcon from '../../assets/icons/close.svg'
 import ConnectIcon from '../../assets/icons/connect.svg'
