@@ -20,6 +20,7 @@ const LandingPage = () => {
   return (
     <Fragment>
       <Header />
+      <div style={{ height: '200vh' }} />
     </Fragment>
   )
 };
