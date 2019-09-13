@@ -1,13 +1,16 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 
+import HeaderBackground from '../../../assets/img/header.jpg';
+
 import { Container } from './styles';
+
 const Header = () => {
   return (
     <Container>
       <Parallax
         blur={{ min: -8, max: 16 }}
-        bgImage="https://aquilacommercial.com/wp-content/uploads/2018/12/Downtown-Austin.jpg"
+        bgImage={HeaderBackground}
         bgImageAlt="the cat"
         strength={500}
       >
