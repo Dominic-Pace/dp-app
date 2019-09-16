@@ -1,24 +1,43 @@
 import React from 'react';
-import { Parallax } from 'react-parallax';
 
-import HeaderBackground from '../../../assets/img/header.jpg';
+import { useScroll } from '../../../utils/hoc/useScroll';
+import Links from '../links';
 
-import { Container } from './styles';
+import {
+  BackgroundImage,
+  Container,
+  Divider,
+  FixedHeaderBG,
+  InfoContainer,
+  Logo,
+  LogoContainer,
+  Name,
+  Title
+} from './styles';
+
+const HEADER_HEIGHT = 100;
 
 const Header = () => {
+  const { scrollY } = useScroll();
+
   return (
     <Container>
-      <Parallax
-        blur={{ min: -8, max: 16 }}
-        bgImage={HeaderBackground}
-        bgImageAlt="the cat"
-        strength={500}
-      >
-        <div style={{ height: '100vh' }} />
-      </Parallax>
-      <div style={{ color: 'white', position: 'absolute', bottom: 24, left: '47%' }}>
-        Hello World
-      </div>
+      <BackgroundImage />
+      <InfoContainer>
+        <Name>Dominic Pace</Name>
+        <Divider />
+        <Title>Software Engineer</Title>
+      </InfoContainer>
+      <LogoContainer isFixed={(window.innerHeight - HEADER_HEIGHT + 10) - scrollY < 0} >
+        <Logo />
+      </LogoContainer>
+      <FixedHeaderBG
+        headerHeight={HEADER_HEIGHT}
+        opacityAmount={scrollY / window.innerHeight}
+        scrollPosition={scrollY}
+        windowHeight={window.innerHeight}
+      />
+      <Links isFixed={(window.innerHeight - HEADER_HEIGHT + 10) - scrollY < 0} />
     </Container>
   )
 };

@@ -6,7 +6,7 @@ export const appTheme  = {
     lightGrey: '#949494',
     white: '#FFFFFF',
     primary: '#0D225A',
-    secondary: '#087E8B',
+    secondary: '#6EE4F1',
     tertiary: '#FF5A5F',
     quaternary: '#E8C547',
     text: {
