@@ -2,6 +2,10 @@ import React, { Fragment, useEffect } from 'react';
 import { useUserState } from '../../store/provider';
 
 import Header from './header';
+import AboutMe from './about';
+import Skills from './skills';
+import Experience from './experience';
+import Contact from './contact';
 
 const LandingPage = () => {
   console.log(useUserState())
@@ -20,7 +24,10 @@ const LandingPage = () => {
   return (
     <Fragment>
       <Header />
-      <div style={{ height: '200vh' }} />
+      <AboutMe />
+      <Skills />
+      <Experience />
+      <Contact />
     </Fragment>
   )
 };

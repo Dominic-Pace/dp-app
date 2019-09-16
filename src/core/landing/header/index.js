@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { useScroll } from '../../../utils/hoc/useScroll';
-import Links from '../links';
+import Links from './links';
 
 import {
   BackgroundImage,

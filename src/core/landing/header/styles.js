@@ -4,7 +4,6 @@ import HeaderBackground from '../../../assets/img/header.jpg';
 import LogoImage from '../../../assets/img/logo.png';
 
 export const BackgroundImage = styled.div`
-  background-blend-mode: exclusion;
   background-color: ${props => props.theme.colors.primary};
   background-image: url(${HeaderBackground});
   background-position: center;
