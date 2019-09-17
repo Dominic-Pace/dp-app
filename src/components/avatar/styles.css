@@ -1,4 +1,4 @@
-@import '../../styles/index.css';
+@import '../../utils/styles/index.css';
 
 .avatar {
     border: 2px solid hsla(0,0%,93%,.42);

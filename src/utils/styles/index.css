@@ -1,0 +1,64 @@
+* {
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+a {
+    color: initial;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+    outline-offset: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 4em;
+    font-weight: 100;
+    letter-spacing: 4px;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: center;
+}

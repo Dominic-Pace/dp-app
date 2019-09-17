@@ -1,24 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { createStore, applyMiddleware } from 'redux'
-import reduxThunk from 'redux-thunk'
-import { Provider } from 'react-redux'
+import { ThemeProvider } from 'styled-components'
 
-import './styles/index.css'
+import { appTheme } from './utils/styles/theme'
 
-import reducers from './reducers'
+import './utils/styles/index.css'
+
 import Core from './core'
 
 import registerServiceWorker from './registerServiceWorker'
 
-const createStoreWithMiddleware = applyMiddleware(reduxThunk)(createStore)
-const store = createStoreWithMiddleware(reducers,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-)
-
 ReactDOM.render(
-  <Provider store={store}>
+  <ThemeProvider theme={appTheme}>
     <Core />
-  </Provider>,
+  </ThemeProvider>,
   document.getElementById('root'))
 registerServiceWorker()
