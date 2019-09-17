@@ -4,7 +4,6 @@ import userReducer from './reducer';
 import {
   FETCH_USER_INFO_START,
   FETCH_USER_INFO_SUCCESS,
-  FETCH_USER_INFO_FAILURE,
 } from './types';
 
 const UserStateProvider = createContext();
@@ -18,7 +17,7 @@ const UserProvider = ({ children }) => {
   const getUserInfo = () => {
     dispatch({ type: FETCH_USER_INFO_START });
     dispatch({ type: FETCH_USER_INFO_SUCCESS });
-  }
+  };
 
   return (
     <UserStateProvider.Provider
@@ -31,7 +30,7 @@ const UserProvider = ({ children }) => {
       {children}
     </UserStateProvider.Provider>
   )
-}
+};
 
 function useUserState() {
   const context = useContext(UserStateProvider);
