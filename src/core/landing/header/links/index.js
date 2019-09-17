@@ -18,7 +18,7 @@ const HeaderLinks = ({ isFixed }) => {
         </LinkSection>
         <LogoSpace />
         <LinkSection>
-          <Link>Experience</Link>
+          <Link>Portfolio</Link>
           <Link>Contact</Link>
         </LinkSection>
       </LinksContainer>

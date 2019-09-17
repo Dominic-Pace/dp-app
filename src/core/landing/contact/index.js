@@ -1,15 +1,22 @@
 import React from 'react';
+import { withTheme } from 'styled-components';
+
+import { Title } from '../../../components/styled';
 
 import {
   Container,
+  ContactSection,
 } from './styles';
 
-const ContactMe = () => {
+const ContactMe = ({ theme }) => {
   return (
     <Container id="contact">
-      Contact
+      <Title borderColor={theme.colors.secondary} textColor={theme.colors.white}>Reach out to me</Title>
+      <ContactSection>
+        Contact Me
+      </ContactSection>
     </Container>
   );
 };
 
-export default ContactMe;
+export default withTheme(ContactMe);

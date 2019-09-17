@@ -4,7 +4,7 @@ import { useUserState } from '../../store/provider';
 import Header from './header';
 import AboutMe from './about';
 import Skills from './skills';
-import Experience from './experience';
+import Portfolio from './portfolio';
 import Contact from './contact';
 
 const LandingPage = () => {
@@ -26,7 +26,7 @@ const LandingPage = () => {
       <Header />
       <AboutMe />
       <Skills />
-      <Experience />
+      <Portfolio />
       <Contact />
     </Fragment>
   )
