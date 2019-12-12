@@ -29,11 +29,11 @@ const AboutMe = () => {
         </InfoSection>
         <InfoSection>
           <Header>Let me tell you about myself</Header>
-          <InfoText>Well....honestly most of my time is spent with my beloved computer and brain. However, when I'm not doing that you can find me spending time with my little family compiled of my girlfriend, 2 cats, and my best friend Oliver!</InfoText>
+          <InfoText>Well....honestly most of my time is spent with my beloved computer and brain. However, when I'm not doing that you can find me spending time with my little family compiled of my fiancé, 2 cats, and my best friend Oliver!</InfoText>
             <OliverImageContainer>
               <OliverImage />
             </OliverImageContainer>
-          <InfoText>If I'm not occupied with one of those you can catch me hanging out with my friends on Xbox (Halo, Fortnite) or working on my Twitch Stream which is built out to help people learn to program.</InfoText>
+          <InfoText>If I'm not occupied with one of those you can catch me hanging out with my friends on Xbox (Halo, Destiny 2) or working on my Twitch Stream which is built out to help people learn to program.</InfoText>
         </InfoSection>
       </AboutSection>
     </Container>
