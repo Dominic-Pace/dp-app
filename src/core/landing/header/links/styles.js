@@ -1,21 +1,6 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
-  bottom: 0;
-  position: absolute;
-  height: 80px;
-  transform: height 1s ease-in-out;
-  width: 100%;
-  
-  ${props => props.isFixed && css`
-    height: 100px;
-    position: fixed;
-    transform: height 1s ease-in-out;
-    top: 0;
-  `}
-`;
-
-export const Link = styled.button`
+export const AnimatedLink = styled.button`
   background-color: transparent;
   cursor: pointer;
   color: ${props => props.theme.colors.white};
@@ -33,6 +18,22 @@ export const Link = styled.button`
     transform: scale(1.05);
     transition: 0.4s ease-out transform; 
   }
+`;
+
+export const Container = styled.div`
+  bottom: 0;
+  position: absolute;
+  height: 80px;
+  transform: height 1s ease-in-out;
+  width: 100%;
+  z-index: 20;
+  
+  ${props => props.isFixed && css`
+    height: 100px;
+    position: fixed;
+    transform: height 1s ease-in-out;
+    top: 0;
+  `}
 `;
 
 export const LinkSection = styled.div`

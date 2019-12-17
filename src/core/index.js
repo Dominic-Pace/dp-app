@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { UserProvider } from '../store/provider';
 
 import LandingPage from './landing';
@@ -11,6 +11,6 @@ const Core = () => {
       <Footer />
     </UserProvider>
   )
-}
+};
 
 export default Core

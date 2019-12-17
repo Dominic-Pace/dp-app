@@ -8,7 +8,6 @@ import Portfolio from './portfolio';
 import Contact from './contact';
 
 const LandingPage = () => {
-  console.log(useUserState())
   const { getUserInfo, isLoading, user } = useUserState();
   useEffect(() => {
     if (!user.name) {

@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 import {
   Container,
-  Link,
+  AnimatedLink,
   LinkSection,
   LinksContainer,
   LogoSpace,
@@ -13,13 +14,13 @@ const HeaderLinks = ({ isFixed }) => {
     <Container isFixed={isFixed}>
       <LinksContainer>
         <LinkSection>
-          <Link>About Me</Link>
-          <Link>Skills</Link>
+          <AnimatedLink as={Link} smooth to="about-me">About Me</AnimatedLink>
+          <AnimatedLink as={Link} smooth offset={-100} to="skills">Skills</AnimatedLink>
         </LinkSection>
         <LogoSpace />
         <LinkSection>
-          <Link>Portfolio</Link>
-          <Link>Contact</Link>
+          <AnimatedLink as={Link} smooth offset={-100} to="portfolio">Portfolio</AnimatedLink>
+          <AnimatedLink as={Link} smooth offset={-100} to="contact">Contact</AnimatedLink>
         </LinkSection>
       </LinksContainer>
     </Container>

@@ -38,6 +38,7 @@ export const FixedHeaderBG = styled.div`
   position: absolute;
   transition: bottom 0.1s ease-in;
   width: 100%;
+  z-index: 20;
   
   ${props => (props.windowHeight - props.headerHeight + 10) - props.scrollPosition < 0 && css`
     opacity: 1;
@@ -64,7 +65,7 @@ export const Logo = styled.div`
   height: 160px;
   margin: 0 auto;
   width: 160px;
-  z-index: 1;
+  z-index: 21;
 `;
 
 export const LogoContainer = styled.div`
@@ -72,7 +73,7 @@ export const LogoContainer = styled.div`
   pointer-events: none;
   position: absolute;
   width: 100%;
-  z-index: 1;
+  z-index: 21;
   
   ${props => props.isFixed && css`
     position: fixed;
