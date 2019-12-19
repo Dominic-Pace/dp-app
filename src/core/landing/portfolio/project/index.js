@@ -18,7 +18,7 @@ const ProjectBlock = ({ imageUrl, name, technologies }) => {
         <Name className="company-name">
           {name}
         </Name>
-        <LearnMoreButton className="learn-more-btn">Learn More</LearnMoreButton>
+        {/*<LearnMoreButton className="learn-more-btn">Learn More</LearnMoreButton>*/}
         <TechUsed className="technologies-used">
           <TechText>Technologies Used:</TechText>
           {technologies && technologies.join(', ')}
