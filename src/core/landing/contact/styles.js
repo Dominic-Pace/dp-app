@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const ButtonContainer = styled.div`
   display: flex;
@@ -42,6 +42,11 @@ export const SubmitButton = styled.button`
   padding: 12px 32px;
   text-transform: uppercase;
   width: fit-content;
+  
+  ${props => props.isDisabled && css`
+    opacity: 0.4;
+    pointer-events: none;
+  `}
 `;
 
 export const TextArea = styled.textarea`
@@ -51,4 +56,11 @@ export const TextArea = styled.textarea`
   padding: 8px;
   resize: none;
   width: 33%;
+`;
+
+export const ThankYouText = styled.div`
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: center;
 `;
