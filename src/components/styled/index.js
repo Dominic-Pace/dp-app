@@ -5,7 +5,7 @@ export const Title = styled.h2`
   color: ${props => props.textColor || props.theme.colors.text.default};
   letter-spacing: 8px;
   margin: 0 auto;
-  margin-bottom: ${props => props.theme.spacing.s};
+  margin-bottom: ${props => props.theme.spacing.l};
   padding-left: ${props => props.theme.spacing.xl};
   padding-right: ${props => props.theme.spacing.xl};
   padding-bottom: ${props => props.theme.spacing.l};

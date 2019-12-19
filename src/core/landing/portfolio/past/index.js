@@ -35,14 +35,19 @@ const Portfolio = ({ theme }) => {
           technologies={['React', 'Redux', 'Firebase', 'Material UI']}
         />
         <ProjectBlock
-          imageUrl="https://media.licdn.com/dms/image/C4E1BAQFyDxibZRlvBw/company-background_10000/0?e=2159024400&v=beta&t=DpsnjrZQAoJKHy8g7hKmYAqyvB02RBzjcpA5wbkKAKo"
+          imageUrl="https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/wirlix.png?alt=media&token=465d4de9-d5b2-4fb2-8e3e-36260aa5f9bc"
           name="Wirlix"
-          technologies={['React Native', 'React', 'Redux', 'Express']}
+          technologies={['React Native', 'Expo', 'Redux', 'Express']}
         />
         <ProjectBlock
           imageUrl="https://s29856.pcdn.co/wp-content/uploads/2016/10/laptop_ipad_iphone.png"
           name="Welltok"
           technologies={['React', 'Redux', 'NodeJS', 'GraphQL']}
+        />
+        <ProjectBlock
+          imageUrl="https://firebasestorage.googleapis.com/v0/b/dp-app-2b9c3.appspot.com/o/squad.jpg?alt=media&token=be264e2c-94b7-4056-9379-c372e1eee6bd"
+          name="Squad"
+          technologies={['React Native', 'Expo', 'Redux', 'Firebase']}
         />
       </PortfolioSection>
     </Container>

@@ -59,7 +59,7 @@ export const ProfileImage = styled.div`
   background-image: url(${ProfileImageSource});
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   border-radius: 16px;
   flex: 1;
   height: 300px;
