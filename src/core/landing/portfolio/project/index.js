@@ -4,7 +4,6 @@ import {
   BackgroundImage,
   ColorOverlay,
   Container,
-  LearnMoreButton,
   Name,
   TechText,
   TechUsed

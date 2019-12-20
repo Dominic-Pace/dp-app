@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect } from 'react';
-import {UserProvider, useUserState} from '../../store/provider';
+import { useUserState } from '../../store/provider';
 
 import Header from './header';
 import AboutMe from './about';
