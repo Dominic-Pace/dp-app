@@ -35,7 +35,7 @@ const UserProvider = ({ children }) => {
 function useUserState() {
   const context = useContext(UserStateProvider);
   if (context === undefined) {
-    throw new Error('DogStateProvider must be used within a DogProvider');
+    throw new Error('DogStateProvider must be used within a UserProvider');
   }
   return context;
 }

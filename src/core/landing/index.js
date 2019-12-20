@@ -1,11 +1,12 @@
 import React, { Fragment, useEffect } from 'react';
-import { useUserState } from '../../store/provider';
+import {UserProvider, useUserState} from '../../store/provider';
 
 import Header from './header';
 import AboutMe from './about';
 import Skills from './skills';
 import Portfolio from './portfolio';
 import Contact from './contact';
+import Footer from '../../components/footer';
 
 const LandingPage = () => {
   const { getUserInfo, isLoading, user } = useUserState();
@@ -17,7 +18,11 @@ const LandingPage = () => {
 
   if (isLoading) {
     return (
-      <div>Loading...</div>
+      <div
+        style={{ alignItems: 'center', display: 'flex', height: '100vh', justifyContent: 'center', width: '100vw' }}
+      >
+        Loading...
+      </div>
     )
   }
   return (
@@ -27,6 +32,7 @@ const LandingPage = () => {
       <Skills />
       <Portfolio />
       <Contact />
+      <Footer />
     </Fragment>
   )
 };
