@@ -1,5 +1,7 @@
 import styled, { css } from 'styled-components';
 
+import { device } from '../../../../utils/styles';
+
 export const AnimatedLink = styled.button`
   background-color: transparent;
   cursor: pointer;
@@ -34,6 +36,10 @@ export const Container = styled.div`
     transform: height 1s ease-in-out;
     top: 0;
   `}
+  
+  @media ${device.tablet} {
+		display: none;
+	}
 `;
 
 export const LinkSection = styled.div`

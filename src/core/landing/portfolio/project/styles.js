@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import { device } from '../../../../utils/styles';
+
 export const BackgroundImage = styled.div`
   background-image: url(${props => props.imageUrl});
   background-position: center;
@@ -58,6 +60,13 @@ export const Container = styled.div`
   min-width: 30%;
   margin: 8px;
   position: relative;
+  
+  @media ${device.tablet} {  
+    width: 90%;
+    flex: auto;
+    margin: 8px auto;
+    max-width: 90%;
+  }
 `;
 
 export const LearnMoreButton = styled.button`

@@ -1,5 +1,7 @@
 import styled, { css } from 'styled-components';
 
+import { device } from '../../../utils/styles';
+
 import HeaderBackground from '../../../assets/img/header.jpg';
 import LogoImage from '../../../assets/img/logo.png';
 
@@ -27,6 +29,11 @@ export const Divider = styled.div`
   height: 6px;
   margin: 0 auto;
   width: 400px;
+  
+  @media ${device.tablet} {
+		width: 90%;
+		height: 3px;
+	}
 `;
 
 export const FixedHeaderBG = styled.div`
@@ -89,6 +96,11 @@ export const Name = styled.h1`
   text-align: center;
   text-transform: uppercase;
   text-shadow: 1px 1px 4px ${props => props.theme.colors.primary};
+  
+  @media ${device.tablet} {
+		font-size: 36px;
+    margin-bottom: ${props => props.theme.spacing.m};
+	}
 `;
 
 export const Title = styled.h3`
@@ -97,4 +109,10 @@ export const Title = styled.h3`
   margin-top: ${props => props.theme.spacing.l};
   text-transform: uppercase;
   text-shadow: 1px 1px 4px ${props => props.theme.colors.primary};
+  
+  @media ${device.tablet} {
+		font-size: 18px;
+		letter-spacing: 4px;
+    margin-top: ${props => props.theme.spacing.m};
+	}
 `;

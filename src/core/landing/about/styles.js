@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import { device } from '../../../utils/styles';
+
 import OliverImageSource from '../../../assets/img/oliver.jpeg';
 import ProfileImageSource from '../../../assets/img/dp-avatar.jpg';
 
@@ -9,6 +11,11 @@ export const AboutSection = styled.div`
   margin: 0 auto;
   margin-top: ${props => props.theme.spacing.xl};
   width: 1200px;
+  
+  @media ${device.tablet} {
+    flex-direction: column;
+    width: 100%;
+  }
 `;
 
 export const Container = styled.div`
@@ -17,6 +24,11 @@ export const Container = styled.div`
   flex-direction: column;
   padding: 180px 0;
   width: 100%;
+  
+  @media ${device.tablet} {
+    padding: 0;
+    padding-top: 108px;
+	}
 `;
 
 export const Header = styled.h4`

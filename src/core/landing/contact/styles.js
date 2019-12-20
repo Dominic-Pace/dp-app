@@ -1,11 +1,17 @@
 import styled, { css } from 'styled-components';
 
+import { device } from '../../../utils/styles';
+
 export const ButtonContainer = styled.div`
   display: flex;
   justify-content: flex-end;
   margin: 0 auto;
   margin-top: 24px;
   width: 33%;
+  
+  @media ${device.tablet} {
+    width: 90%;
+  }
 `;
 
 export const Container = styled.div`
@@ -15,6 +21,12 @@ export const Container = styled.div`
   min-height: 500px;
   padding: 120px 0;
   width: 100%;
+  
+  @media ${device.tablet} {
+    padding: 0;
+    padding-bottom: 48px;
+    padding-top: 108px;
+  }
 `;
 
 export const ContactSection = styled.div`
@@ -23,6 +35,10 @@ export const ContactSection = styled.div`
   flex-direction: column;
   margin: 0 auto;
   width: 1200px;
+  
+  @media ${device.tablet} {
+    width: 100vw;
+  }
 `;
 
 export const Input = styled.input`
@@ -31,6 +47,10 @@ export const Input = styled.input`
   margin-bottom: 16px;
   padding: 8px;
   width: 33%;
+  
+  @media ${device.tablet} {
+    width: 90%;
+  }
 `;
 
 export const SubmitButton = styled.button`
@@ -47,6 +67,11 @@ export const SubmitButton = styled.button`
     opacity: 0.4;
     pointer-events: none;
   `}
+  
+  @media ${device.tablet} {
+    margin-right: 0;
+    width: 100%;
+  }
 `;
 
 export const TextArea = styled.textarea`
@@ -56,6 +81,10 @@ export const TextArea = styled.textarea`
   padding: 8px;
   resize: none;
   width: 33%;
+  
+  @media ${device.tablet} {
+    width: 90%;
+  }
 `;
 
 export const ThankYouText = styled.div`
