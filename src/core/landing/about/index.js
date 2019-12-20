@@ -13,7 +13,9 @@ import {
   OliverImageContainer,
   ProfileImage,
   ProfileImageContainer,
+  SocialLinks,
 } from './styles';
+import Icon from "../../../components/icon";
 
 const AboutMe = () => {
   return (
@@ -37,6 +39,11 @@ const AboutMe = () => {
           <InfoText>If I'm not occupied with one of those you can catch me hanging out with my friends on Xbox (Halo, Destiny 2) or playing a board game with my family.</InfoText>
         </InfoSection>
       </AboutSection>
+      <SocialLinks>
+        <Icon size={50} to="https://github.com/Dominic-Pace" type="githubFill" />
+        <Icon size={35} to="https://firebasestorage.googleapis.com/v0/b/dp-app-440b6.appspot.com/o/Dominic%20Pace-Resume%202019.pdf?alt=media&token=7673b13f-55e4-4d14-b977-0410a9607533" type="resume" />
+        <Icon size={50} to="https://www.linkedin.com/in/dominic-pace/" type="linkedInFill" />
+      </SocialLinks>
     </Container>
   );
 };

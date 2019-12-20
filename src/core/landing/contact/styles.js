@@ -19,7 +19,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 500px;
-  padding: 120px 0;
+  padding-bottom: 64px;
+  padding-top: 180px;
   width: 100%;
   
   @media ${device.tablet} {

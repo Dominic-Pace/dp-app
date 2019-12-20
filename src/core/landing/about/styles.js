@@ -22,7 +22,8 @@ export const Container = styled.div`
   background-color: ${props => props.theme.colors.appBackground};
   display: flex;
   flex-direction: column;
-  padding: 180px 0;
+  padding-bottom: 64px;
+  padding-top: 180px;
   width: 100%;
   
   @media ${device.tablet} {
@@ -82,6 +83,21 @@ export const ProfileImage = styled.div`
 export const ProfileImageContainer = styled.div`
   flex: 1;
   margin: auto;
+`;
+
+export const SocialLinks = styled.div`
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 48px;
+  width: 200px;
+  
+  @media ${device.tablet} {
+    margin: 32px auto;
+    padding: 0;
+    width: 80%;
+  }
 `;
 
 export const Title = styled.h2`
