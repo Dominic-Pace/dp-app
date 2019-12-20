@@ -1,48 +1,52 @@
-import React from 'react'
+import React, { useState } from 'react';
+import { withTheme } from 'styled-components';
 
-import GithubIcon from '../../assets/icons/github.svg';
-import LinkedInIcon from '../../assets/icons/linked-in.svg';
-import ResumeIcon from '../../assets/icons/resume.svg';
+import {
+  GithubIcon,
+  LinkedInIcon,
+  ResumeIcon,
+} from './vectors';
 
-import './styles.css'
+import { Link } from './styles';
 
-const types = {
-  githubFill: GithubIcon,
-  linkedInFill: LinkedInIcon,
-  resume: ResumeIcon,
+const icons = color => ({
+  github: <GithubIcon color={color} />,
+  linkedIn: <LinkedInIcon color={color} />,
+  resume: <ResumeIcon color={color} />,
+});
+
+const viewBoxes = {
+  github: '0 0 50 50',
+  linkedIn: '0 0 50 50',
+  resume: '0 0 50 65',
 };
 
-const Icon = ({ onClick, size, style, to, type }) => {
+export const Icon = ({ color, height, name, theme, to, width }) => {
+  const [hoverColor, setHoverColor] = useState(color);
+
   if (to) {
     return (
-      <a
+      <Link
         href={to}
+        onMouseEnter={() => setHoverColor(theme.colors.quaternary)}
+        onMouseLeave={() => setHoverColor(color)}
         target="_blank"
       >
-        <img
-          alt='type'
-          onClick={onClick}
-          src={types[type]}
-          style={{
-            ...{
-              cursor: 'pointer',
-            },
-            ...style,
-          }}
-          width={size}
-        />
-      </a>
+        <svg height={height} viewBox={viewBoxes[name]} width={width}>
+          {icons(hoverColor)[name]}
+        </svg>
+      </Link>
     )
   }
   return (
-    <img
-      alt='type'
-      onClick={onClick}
-      src={types[type]}
-      style={style}
-      width={size}
-    />
+    <svg height={height} viewBox={viewBoxes[name]} width={width}>
+      {icons(color)[name]}
+    </svg>
   );
 };
 
-export default Icon;
+Icon.defaultProps = {
+  color: '#949494',
+};
+
+export default withTheme(Icon);

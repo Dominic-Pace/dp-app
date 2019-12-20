@@ -40,9 +40,9 @@ const AboutMe = () => {
         </InfoSection>
       </AboutSection>
       <SocialLinks>
-        <Icon size={50} to="https://github.com/Dominic-Pace" type="githubFill" />
-        <Icon size={35} to="https://firebasestorage.googleapis.com/v0/b/dp-app-440b6.appspot.com/o/Dominic%20Pace-Resume%202019.pdf?alt=media&token=7673b13f-55e4-4d14-b977-0410a9607533" type="resume" />
-        <Icon size={50} to="https://www.linkedin.com/in/dominic-pace/" type="linkedInFill" />
+        <Icon name="github" height={50} to="https://github.com/Dominic-Pace" />
+        <Icon name="resume" height={50} to="https://firebasestorage.googleapis.com/v0/b/dp-app-440b6.appspot.com/o/Dominic%20Pace-Resume%202019.pdf?alt=media&token=7673b13f-55e4-4d14-b977-0410a9607533" />
+        <Icon name="linkedIn" height={50} to="https://www.linkedin.com/in/dominic-pace/"  />
       </SocialLinks>
     </Container>
   );
