@@ -53,6 +53,7 @@ export const ColorOverlay = styled.div`
 `;
 
 export const Container = styled.div`
+  border: 1px solid gainsboro;
   display: flex;
   flex: 1;
   height: 250px;

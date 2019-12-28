@@ -27,8 +27,8 @@ const AboutMe = () => {
         </ProfileImageContainer>
         <InfoSection>
           <Header>Hey There!</Header>
-          <InfoText>I am Dominic and I live in the great city of Austin, TX. I have been professionally kicking ass and programming since 2015. As an entrepreneur at heart I learned a couple years ago that the corporate life wasn't for me and left that all behind. The rest is history.</InfoText>
-          <InfoText>Although only being in the industry for a few years may not sound like a long time, I have seen a lot. Don't believe me? Check out my <Link smooth to="portfolio">portfolio</Link> below. I played an integral role in a medium size company of about 80 people into a <a href="https://www.forbes.com/companies/welltok/?list=cloud100#65dce30c567c" target="_blank" rel="noopener noreferrer">Forbes Cloud Top 100</a> company. While that was sweet and cool and all...I absolutely love working with early stage start-ups. I've worked with a few ~20 people big, and most recently have been working on scaling and growing companies with less than 10 people. Interested in chatting about an opportunity? Contact me below!</InfoText>
+          <InfoText>I am Dominic and I live in the sunny city of Austin, TX. I have been building professional web and mobile apps since 2015. I am an entrepreneur and tech nerd at heart. I love having the opportunity to blend those two passions together into a career.</InfoText>
+          <InfoText>My professional goal is to eventually get into a beginning stage company as a technical leader. To achieve this goal I've spent most of my career working on shorter than normal projects to gain a lot of experience in different scenarios. Check out my <Link smooth to="portfolio">portfolio</Link> below. Not only have I worked in many startup environments, but I've also worked in medium size companies! Interested in chatting about an opportunity? Contact me below!</InfoText>
         </InfoSection>
         <InfoSection>
           <Header>Let me tell you about myself</Header>
