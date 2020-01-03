@@ -4,12 +4,13 @@ import {
   BackgroundImage,
   ColorOverlay,
   Container,
+  LearnMoreButton,
   Name,
   TechText,
   TechUsed
 } from './styles';
 
-const ProjectBlock = ({ imageUrl, name, technologies }) => {
+const ProjectBlock = ({ href, imageUrl, name, technologies }) => {
   return (
     <Container>
       <BackgroundImage imageUrl={imageUrl} />
@@ -17,7 +18,13 @@ const ProjectBlock = ({ imageUrl, name, technologies }) => {
         <Name className="company-name">
           {name}
         </Name>
-        {/*<LearnMoreButton className="learn-more-btn">Learn More</LearnMoreButton>*/}
+        {href && (
+          <LearnMoreButton className="learn-more-btn">
+            <a href={href} target="_blank">
+              Learn More
+            </a>
+          </LearnMoreButton>
+        )}
         <TechUsed className="technologies-used">
           <TechText>Technologies Used:</TechText>
           {technologies && technologies.join(', ')}

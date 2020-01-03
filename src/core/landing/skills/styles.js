@@ -17,6 +17,13 @@ export const Container = styled.div`
 
 export const Overview = styled.p`
   color: ${props => props.theme.colors.text.default};
+  margin: 0 auto;
+  max-width: 60%;
+  
+  @media ${device.tablet} {
+    margin-bottom: 32px;
+    max-width: 90%;
+	}
 `;
 
 export const SkillsSection = styled.div`

@@ -15,7 +15,18 @@ const Skills = ({ theme }) => {
       <Title borderColor={theme.colors.quaternary}>My Skills</Title>
       <SkillsSection>
         <Overview>
-          I started off in the industry in Test Automation using <b>Java</b>. After a long solid year of grinding and making it into a leadership role, I decided that testing just wasn't for me. That's when I started hitting the online courses, dabbling with some personal projects, and picking up tickets at work on nights and weekends to learn <b>React</b> and <b>Node</b>. The rest is history.
+          I am a passionate creator and technologist that enjoys using <b>Javascript</b> frameworks and libraries to
+          deliver high-end products. Currently, I utilize <b>NodeJS</b>, <b>React</b>, <b>React Native</b>, <b>Redux</b>, <b>Express</b>,
+          <b>MongoDB</b>, <b>Git</b>, and <b>Webstorm</b>.
+
+          <br />
+          <br />
+          To begin my career, I gained vast amounts of experience as an automation engineer by specializing
+          in building out frameworks utilizing <b>Java</b> and <b>Jenkins</b>. After this, I had an opportunity to pursue
+          full-stack development. Since then, I have worked with all aspects of the product life cycle very
+          closely, specifically Front End Development using <b>React</b> and <b>Redux</b>. Outside of work I enjoy
+          building out small personal apps using some of the technologies described above. I thrive in an
+          agile environment and love solving difficult problems through programming.
         </Overview>
       </SkillsSection>
     </Container>

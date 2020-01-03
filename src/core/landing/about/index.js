@@ -28,7 +28,7 @@ const AboutMe = () => {
         <InfoSection>
           <Header>Hey There!</Header>
           <InfoText>I am Dominic and I live in the sunny city of Austin, TX. I have been building professional web and mobile apps since 2015. I am an entrepreneur and tech nerd at heart. I love having the opportunity to blend those two passions together into a career.</InfoText>
-          <InfoText>My professional goal is to eventually get into a beginning stage company as a technical leader. To achieve this goal I've spent most of my career working on shorter than normal projects to gain a lot of experience in different scenarios. Check out my <Link smooth to="portfolio">portfolio</Link> below. Not only have I worked in many startup environments, but I've also worked in medium size companies! Interested in chatting about an opportunity? Contact me below!</InfoText>
+          <InfoText>My professional goal is to eventually get into a beginning stage company as a technical leader. To achieve this goal I've spent most of my career working on shorter than normal projects to gain a lot of experience in different scenarios. Check out my <Link smooth to="portfolio" style={{ cursor: 'pointer' }}>portfolio</Link> below. Not only have I worked in many startup environments, but I've also worked in medium size companies! Interested in chatting about an opportunity? Contact me below!</InfoText>
         </InfoSection>
         <InfoSection>
           <Header>Let me tell you about myself</Header>

@@ -15,16 +15,19 @@ const Portfolio = ({ theme }) => {
       <Title borderColor={theme.colors.quaternary}>Previous Projects</Title>
       <PortfolioSection>
         <ProjectBlock
+          href="https://www.jointheround.com"
           imageUrl="https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/ae/f6/4e/aef64ebc-0692-6ca5-b754-fb6bd07619ec/mzl.ccfimrud.png/750x750bb.jpeg"
           name="The Round"
           technologies={['ReactNative', 'React', 'Redux', 'Firebase']}
         />
         <ProjectBlock
+          href="https://www.onlinemeded.org"
           imageUrl="https://pa.onlinemeded.org/spa-static/9c877852e7325906caec3143651e790e.png"
           name="OnlineMedEd"
           technologies={['React', 'Redux', 'Styled Components', 'Recompose']}
         />
         <ProjectBlock
+          href="https://design-facts.firebaseapp.com"
           imageUrl="https://kottke.org/plus/misc/images/design-facts.jpg"
           name="Design Facts"
           technologies={['React', 'Redux', 'Firebase', 'Material UI']}
@@ -40,6 +43,7 @@ const Portfolio = ({ theme }) => {
           technologies={['React Native', 'Expo', 'Redux', 'Express']}
         />
         <ProjectBlock
+          href="https://www.welltok.com"
           imageUrl="https://s29856.pcdn.co/wp-content/uploads/2016/10/laptop_ipad_iphone.png"
           name="Welltok"
           technologies={['React', 'Redux', 'NodeJS', 'GraphQL']}
