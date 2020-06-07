@@ -4,6 +4,7 @@ import { withTheme } from 'styled-components';
 import ProjectBlock from '../project';
 import { Title } from '../../../../components/styled';
 
+import HomadsLogo from '../../../../assets/img/homads.jpg'
 import {
   Container,
   PortfolioSection,
@@ -15,8 +16,20 @@ const Portfolio = ({ theme }) => {
       <Title borderColor={theme.colors.quaternary}>Previous Projects</Title>
       <PortfolioSection>
         <ProjectBlock
+          href="https://www.homads.com"
+          imageUrl={HomadsLogo}
+          name="Homads"
+          technologies={['React', 'Redux']}
+        />
+        <ProjectBlock
+          href="https://www.dataclay.com"
+          imageUrl="https://i.ytimg.com/vi/-cOZEFM4cw8/maxresdefault.jpg"
+          name="Dataclay"
+          technologies={['React', 'Redux', 'Express', 'MongoDB', 'AWS']}
+        />
+        <ProjectBlock
           href="https://www.jointheround.com"
-          imageUrl="https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/ae/f6/4e/aef64ebc-0692-6ca5-b754-fb6bd07619ec/mzl.ccfimrud.png/750x750bb.jpeg"
+          imageUrl="https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/e4/43/97/e4439792-541b-a1ab-ec6e-ff28d5b5e44f/mzl.qnwttnru.png/750x750bb.jpeg"
           name="The Round"
           technologies={['ReactNative', 'React', 'Redux', 'Firebase']}
         />

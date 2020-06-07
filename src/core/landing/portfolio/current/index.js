@@ -15,16 +15,10 @@ const Portfolio = ({ theme }) => {
       <Title borderColor={theme.colors.quaternary}>Current Projects</Title>
       <PortfolioSection>
         <ProjectBlock
-          href="https://www.dataclay.com"
-          imageUrl="https://i.ytimg.com/vi/-cOZEFM4cw8/maxresdefault.jpg"
-          name="Dataclay"
-          technologies={['React', 'Redux', 'Express', 'MongoDB', 'AWS']}
-        />
-        <ProjectBlock
-          href="https://www.homads.com"
-          imageUrl="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/53226701_2237857323099294_6284938868164657152_o.png?_nc_cat=109&_nc_ohc=S5QGTA9iWyUAQm4lZxNw6aOuvLRLIx5wBsotn7-CKgfIqYzR6xYzHP50g&_nc_ht=scontent-dfw5-1.xx&oh=78b1f19a5208278e6a9c46c8c2e055ef&oe=5E7F9F1D"
-          name="Homads"
-          technologies={['React', 'Redux']}
+          href="https://www.zenbusiness.com"
+          imageUrl="https://www.greycroft.com/wp-content/uploads/2019/09/logo840x840-420x420.png"
+          name="ZenBusiness"
+          technologies={['React', 'Redux', 'Google Cloud']}
         />
       </PortfolioSection>
     </Container>
